@@ -42,8 +42,10 @@ p{
 }
 .first-body-div{
     width: 33.3333%;
+    padding: 0 8px;
+    margin-top: 16px;
 }
-h4{
+.first-body-h4{
     display: flex;
     justify-content: space-between;
 }
@@ -70,7 +72,10 @@ h4{
     display: flex;
 }
 .body{
+    display: flex;
+    flex-wrap: wrap;
     max-width: 100%;
+
 }
 .list-ul{
     display: flex;
@@ -126,20 +131,21 @@ h4{
     min-width: 0;
     align-items: stretch;
     display: flex;
+    margin-left: -2px;
 
 
 }
 .form-control{
   
     padding: 6px 12px;
+    
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
     color: #212529;
     background-color: #fff;
     border: 1px solid #ced4da;
-    border-top-left-radius: 4px;
-    border-bottom-left-radius: 4px;
+    border-radius: 4px;
     min-width: 0;
 
 }
@@ -157,4 +163,59 @@ h4{
     border-bottom-right-radius: 4px;
     border-top-right-radius: 4px;
 
+}
+.second-body-div{
+    
+    
+    width: 66.6666666%;
+    margin-top: 16px;
+
+}
+.second-body-h4{
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 23.298px;
+    font-weight: 500;
+    line-height: 1.2;
+
+}
+.form-div-1{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.name-div{
+    width: 50%;
+    max-width: 100%;
+    margin-top: 16px;
+    padding: 0 8px;
+    
+    
+
+}
+.form-lable{
+    display: inline-block;
+    width: 100%;
+    
+    font-size: 16px;
+    font-weight: 400;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.5;
+    margin-bottom: 8px;
+
+
+}
+.form-input{
+    padding: 6px 12px;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    min-width: 0;
 }
