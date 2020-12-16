@@ -13,7 +13,7 @@
         <div class="header">
             <img src="./bootstrap-solid.svg" alt="">
             <h2>Checkout form</h2>
-            <p>Below is an example form built entirely with Bootstrap’s form controls. Each required form group has a
+            <p class="first-p">Below is an example form built entirely with Bootstrap’s form controls. Each required form group has a
                 validation state that can be triggered by attempting to submit the form without completing it.</p>
 
         </div>
@@ -120,17 +120,17 @@
                     <h4 class="second-body-h4">Payment</h4>
                     <div>
                         <div class="form-div-2">
-                            <input type="radio" class="input-check-1" id="credit">
+                            <input type="radio" class="input-check-1" id="credit" name="radio" checked required>
                             <label for="credit" class="lable-check-1">Credit card</label>
 
                         </div>
                         <div class="form-div-2">
-                            <input type="radio" class="input-check-1" id="debit">
+                            <input type="radio" class="input-check-1" id="debit" name="radio" required>
                             <label for="debit" class="lable-check-1">Debit card</label>
 
                         </div>
                         <div class="form-div-2">
-                            <input type="radio" class="input-check-1" id="paypal">
+                            <input type="radio" class="input-check-1" id="paypal" name="radio" required>
                             <label for="paypal" class="lable-check-1">Pay Pal</label>
 
                         </div>
@@ -165,7 +165,12 @@
 
         </div>
         <div class="footer">
-
+            <p class="footer-p">© 2017–2020 Company Name</p>
+            <ul>
+                <li><a href="">Privacy</a></li>
+                <li><a href="">Terms</a></li>
+                <li><a href="">Support</a></li>
+            </ul>
         </div>
     </section>
 
