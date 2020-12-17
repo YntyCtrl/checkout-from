@@ -186,9 +186,17 @@ h2{
     color: #212529;
     background-color: #fff;
     border: 1px solid #ced4da;
-    border-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
     min-width: 0;
 
+}
+.form-control:focus{
+    color: #212529;
+    background-color: #fff;
+    border-color: #86b7fe;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, .25);
+    outline: none;
 }
 .cart-b{
     display: inline-block;
@@ -387,6 +395,11 @@ h2{
     line-height: 1.5;
     padding: 8px 16px;
 }
+.big-bt:focus{
+    border-color: #86b7fe;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, .25);
+    outline: none;
+}
 .footer{
     text-align: center;
     margin: 48px 0;
@@ -455,6 +468,7 @@ h2{
     padding: 0 8px;
     margin-top: 16px;
 }
+
 @media(max-width:1500px){
     .body{
         flex-direction: row-reverse;
@@ -485,5 +499,25 @@ h2{
     .second-body-div{
         width: 100%
     }
+    .card-width{
+        width: 100%;
+    }
+    .card-div{
+        width: 100%;
+    }
+    .form-control{
+        flex: 1 1 auto;
+    }
+    .country-div, .state-div, .zip-div{
+        width: 100%;
+    }
+
+}
+@media(max-width:576px){
+    .name-div{
+        width: 100%;
+    }
+        
+    
 
 }
