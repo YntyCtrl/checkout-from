@@ -455,3 +455,35 @@ h2{
     padding: 0 8px;
     margin-top: 16px;
 }
+@media(max-width:1500px){
+    .body{
+        flex-direction: row-reverse;
+    }
+
+}
+@media(max-width:992px){
+    .body{
+        flex-direction: row-reverse;
+        
+    }
+    .first-body-div{
+        width: 41.6666666667%
+    }
+    .second-body-div{
+        width: 58.3333333333%
+    }
+
+}
+@media(max-width:768px){
+    .body{
+        flex-direction: column;
+        
+    }
+    .first-body-div{
+        width: 100%
+    }
+    .second-body-div{
+        width: 100%
+    }
+
+}
